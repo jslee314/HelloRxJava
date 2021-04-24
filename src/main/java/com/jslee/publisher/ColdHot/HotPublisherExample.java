@@ -1,11 +1,9 @@
-package com.jslee;
+package com.jslee.publisher.ColdHot;
 
-import io.reactivex.Flowable;
 import io.reactivex.processors.PublishProcessor;
 
-public class HotColdPublisher {
-
-    void HotPublisher(){
+public class HotPublisherExample {
+    public static void main(String[] args){
         PublishProcessor<Integer> processor = PublishProcessor.create();
         processor.subscribe(data -> System.out.println("구독자1: " + data));
         processor.onNext(1);
@@ -17,13 +15,4 @@ public class HotColdPublisher {
 
         processor.onComplete();
     }
-
-    void ColdPublisher(){
-        Flowable<Integer> flowable = Flowable.just(1, 3, 5, 7);
-
-        flowable.subscribe(data -> System.out.println("구독자1: " + data));
-        flowable.subscribe(data -> System.out.println("구독자2: " + data));
-    }
-
-
 }
