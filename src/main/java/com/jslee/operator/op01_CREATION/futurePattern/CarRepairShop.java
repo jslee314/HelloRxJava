@@ -1,10 +1,11 @@
-package com.jslee.operator.chapter0501;
+package com.jslee.operator.op01_CREATION.futurePattern;
 
 import com.jslee.utils.LogType;
 import com.jslee.utils.Logger;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
+
 
 public class CarRepairShop {
     public int getCarRepairCostSync(int brokens) {

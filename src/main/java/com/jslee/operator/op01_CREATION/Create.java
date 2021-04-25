@@ -1,14 +1,14 @@
-package com.jslee.operator.chapter0501;
+package com.jslee.operator.op01_CREATION;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
+import com.jslee.utils.Logger;;
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
-public class ObservableCreateExample {
+public class Create {
     public static void main(String[] args){
         Observable<String> observable = Observable.create(
                 new ObservableOnSubscribe<String>() {
