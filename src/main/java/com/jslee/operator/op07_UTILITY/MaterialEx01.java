@@ -1,10 +1,10 @@
-package com.jslee.operator.chapter0507;
+package com.jslee.operator.op07_UTILITY;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
+import com.jslee.utils.Logger;;
 import io.reactivex.Observable;
 
-public class ObservableMaterialExample01 {
+public class MaterialEx01 {
     public static void main(String[] args) {
         Observable.just(1, 2, 3, 4, 5, 6)
                 .materialize()

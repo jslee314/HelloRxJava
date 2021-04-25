@@ -1,14 +1,14 @@
-package com.jslee.operator.chapter0507;
+package com.jslee.operator.op07_UTILITY;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
-import com.jslee.utils.TimeUtil;
+import com.jslee.utils.Logger;;
+import com.jslee.utils.TimeUtil;;
 import io.reactivex.Observable;
 
 /**
  * 통지되는 데이터 각각에 지연 시간을 적용하는 예제:q!
  */
-public class ObservableDelayExample02 {
+public class DelayEx02 {
     public static void main(String[] args) {
         Observable.just(1,3,5,7)
                 .flatMap(item -> {
