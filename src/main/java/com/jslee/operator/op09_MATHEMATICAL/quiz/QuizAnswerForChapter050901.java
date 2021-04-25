@@ -1,7 +1,7 @@
-package com.jslee.operator.chapter0509.quiz;
+package com.jslee.operator.op09_MATHEMATICAL.quiz;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
+import com.jslee.utils.Logger;;
 import io.reactivex.Observable;
 
 /**
