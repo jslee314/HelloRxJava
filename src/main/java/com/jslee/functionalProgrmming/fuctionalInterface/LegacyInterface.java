@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming.lambda;
+package com.jslee.functionalProgrmming.fuctionalInterface;
 
 import com.jslee.common.Car;
 import com.jslee.common.CarMaker;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 하나의 추상 메서드를 가지고 있는 기존 인터페이스를 구현하는 예제
  */
-public class LegacyInterfaceExample {
+public class LegacyInterface {
     public static void main(String[] args) {
         List<Car> cars = Arrays.asList(
                 new Car(CarMaker.HYUNDAE, CarType.SUV, "팰리세이드", 28000000, true),

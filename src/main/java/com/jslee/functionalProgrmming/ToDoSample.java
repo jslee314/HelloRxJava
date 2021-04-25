@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming;
+package com.jslee.functionalProgrmming;
 
 import io.reactivex.Observable;
 import io.reactivex.schedulers.Schedulers;

@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming.lambda;
+package com.jslee.functionalProgrmming.fuctionalDescriptor;
 
 import java.util.Arrays;
 import java.util.List;

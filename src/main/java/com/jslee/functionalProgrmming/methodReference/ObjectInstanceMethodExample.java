@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming.methodReference;
+package com.jslee.functionalProgrmming.methodReference;
 
 import java.util.function.Function;
 import java.util.function.IntUnaryOperator;

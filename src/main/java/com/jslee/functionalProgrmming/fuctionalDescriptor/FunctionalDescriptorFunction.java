@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming.lambda;
+package com.jslee.functionalProgrmming.fuctionalDescriptor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,8 +8,9 @@ import java.util.function.Function;
 /**
  * 함수 디스크립터의 Function 예제
  */
-public class FunctionalDescriptorFunctionExample {
+public class FunctionalDescriptorFunction {
     public static void main(String[] args) {
+
         List<Character> characterList = Arrays.asList('a', 'b', 'c', 'd', 'e');
         List<Integer> asciiNumbers = map(characterList, character -> (int) character);
 

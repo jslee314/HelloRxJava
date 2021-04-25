@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming.methodReference.quiz;
+package com.jslee.functionalProgrmming.methodReference.quiz;
 
 import com.jslee.common.Car;
 import com.jslee.common.CarType;

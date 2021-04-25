@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming;
+package com.jslee.functionalProgrmming;
 
 import java.util.Arrays;
 import java.util.List;

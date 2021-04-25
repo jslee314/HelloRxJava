@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming.lambda;
+package com.jslee.functionalProgrmming.fuctionalInterface;
 
 import com.jslee.common.*;
 
@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 사용자 정의 Predicate를 익명 클래스로 구현하는 예제
  */
-public class FunctionalInterfaceExample {
+public class FunctionalInterface {
     public static void main(String[] args) {
         List<Car> cars = Arrays.asList(
                 new Car(CarMaker.HYUNDAE, CarType.SUV, "팰리세이드", 28000000, true),

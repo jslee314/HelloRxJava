@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming.lambda;
+package com.jslee.functionalProgrmming.fuctionalInterface;
 
 import com.jslee.common.Car;
 import com.jslee.common.CarFilter;
@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * java.util.function에 내장된 Predicate를 사용하는 예제
  */
-public class BuiltinFunctionalInterfaceExample {
+public class BuiltinFunctionalInterface {
     public static void main(String[] args) {
 
         List<Car> cars = Arrays.asList(

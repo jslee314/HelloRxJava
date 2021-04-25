@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming.lambda;
+package com.jslee.functionalProgrmming.fuctionalDescriptor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 /**
  * 함수 디스크립터의 Predicate 예제
  */
-public class FunctionalDescriptorPredicateExample {
+public class FunctionalDescriptorPredicate {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 6, 10, 30, 65, 70, 102);
         List<Integer> result = filter(numbers, n -> n > 30);

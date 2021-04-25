@@ -1,9 +1,6 @@
-package com.jslee.fuctionalProgrmming.lambda;
+package com.jslee.functionalProgrmming.fuctionalInterface;
 
-import com.jslee.common.Car;
-import com.jslee.common.CarFilter;
-import com.jslee.common.CarMaker;
-import com.jslee.common.CarType;
+import com.jslee.common.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,7 +8,7 @@ import java.util.List;
 /**
  * 사용자 정의 Predicate를 람다 표현식으로 사용하는 예제
  */
-public class FunctionalInterfaceToLamdaExample {
+public class FunctionalInterfaceToLambda {
     public static void main(String[] args) {
         List<Car> cars = Arrays.asList(
                 new Car(CarMaker.HYUNDAE, CarType.SUV, "팰리세이드", 28000000, true),

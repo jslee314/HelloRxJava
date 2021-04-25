@@ -1,4 +1,4 @@
-package com.jslee.fuctionalProgrmming.methodReference;
+package com.jslee.functionalProgrmming.methodReference;
 
 public class CarInventory {
     private int incomingCount;
