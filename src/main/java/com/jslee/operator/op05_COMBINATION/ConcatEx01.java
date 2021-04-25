@@ -1,8 +1,8 @@
-package com.jslee.operator.chapter0505;
+package com.jslee.operator.op05_COMBINATION;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
-import com.jslee.utils.TimeUtil;
+import com.jslee.utils.Logger;;
+import com.jslee.utils.TimeUtil;;
 import io.reactivex.Observable;
 
 import java.util.concurrent.TimeUnit;
@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * concat 을 이용하여 2개 이상의 Observable을 하나의 Observable로 이어 붙여서 통지하는 예제
  */
-public class ObservableConcatExample01 {
+public class ConcatEx01 {
     public static void main(String[] args) {
         Observable<Long> observable1 =
                 Observable.interval(500L, TimeUnit.MILLISECONDS)
