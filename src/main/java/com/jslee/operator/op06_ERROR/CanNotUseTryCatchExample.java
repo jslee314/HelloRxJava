@@ -1,7 +1,7 @@
-package com.jslee.operator.chapter0506;
+package com.jslee.operator.op06_ERROR;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
+import com.jslee.utils.Logger;;
 import io.reactivex.Observable;
 
 public class CanNotUseTryCatchExample {

@@ -1,8 +1,8 @@
-package com.jslee.operator.chapter0506;
+package com.jslee.operator.op06_ERROR;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
-import com.jslee.utils.TimeUtil;
+import com.jslee.utils.Logger;;
+import com.jslee.utils.TimeUtil;;
 import io.reactivex.Observable;
 
 import java.util.concurrent.TimeUnit;
@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  * - 소비자가 예상되는 예외를 모두 사전에 알고 처리하긴 힘들기때문에 생산자쪽에서 예외 처리를 사전에 해두고 소비자는 선언된
  * 예외 상황을 보고 그에 맞는 적절한 처리를 할 수 있다.
  */
-public class ObservableOnErrorReturnExample {
+public class OnErrorReturn {
     public static void main(String[] args) {
         Observable.just(5)
                 .flatMap(num -> Observable

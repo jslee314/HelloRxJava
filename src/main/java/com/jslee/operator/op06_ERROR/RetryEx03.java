@@ -1,14 +1,14 @@
-package com.jslee.operator.chapter0506;
+package com.jslee.operator.op06_ERROR;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
-import com.jslee.utils.TimeUtil;
+import com.jslee.utils.Logger;;
+import com.jslee.utils.TimeUtil;;
 import io.reactivex.Observable;
 
 /**
  * 에러 발생 시, 데이터 통지를 처음부터 다시 하는것을 보여주는 예제
  */
-public class ObservableRetryExample03 {
+public class RetryEx03 {
     private final static int RETRY_MAX = 5;
     public static void main(String[] args) {
         Observable.just(10, 12, 15, 16)
