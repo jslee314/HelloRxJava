@@ -1,13 +1,13 @@
-package com.jslee.operator.chapter0508;
+package com.jslee.operator.op08_CONDITIONAL;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
+import com.jslee.utils.Logger;;
 import io.reactivex.Observable;
 
 /**
  * 통지되는 데이터가 없을 경우, 디폴트 값을 통지하는 예제
  */
-public class ObservableDefaultIfEmptyExample {
+public class DefaultIfEmpty {
     public static void main(String[] args) {
         Observable.just(1, 2, 3, 4, 5)
                 .filter(num -> num > 10)

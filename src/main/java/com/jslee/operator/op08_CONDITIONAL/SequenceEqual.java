@@ -1,17 +1,17 @@
-package com.jslee.operator.chapter0508;
+package com.jslee.operator.op08_CONDITIONAL;
 
 import com.jslee.common.CarMaker;
 import com.jslee.common.SampleData;
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
-import com.jslee.utils.TimeUtil;
+import com.jslee.utils.Logger;;
+import com.jslee.utils.TimeUtil;;
 import io.reactivex.Observable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
  * sequenceEqual 을 이용하여 두 Observable 의 모든 데이터가 같은지(순서, 데이터 수, 데이터 타입)를 판단하는 예제
  */
-public class ObservableSequenceEqualExample {
+public class SequenceEqual {
     public static void main(String[] args) {
         Observable<CarMaker> observable1 =
                 Observable
