@@ -1,8 +1,8 @@
-package com.jslee.operator.chapter0503;
+package com.jslee.operator.op03_TRANSFORMATION;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
-import com.jslee.utils.TimeUtil;
+import com.jslee.utils.Logger;;
+import com.jslee.utils.TimeUtil;;
 import io.reactivex.Observable;
 
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * switchMap 대신 concatMap을 쓸 경우 비효율적인 검색 예제
  */
-public class ObservableSwitchMapExample02 {
+public class SwitchMapEx02 {
     public static void main(String[] args) {
         TimeUtil.start();
         Searcher searcher = new Searcher();

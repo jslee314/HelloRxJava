@@ -1,7 +1,7 @@
-package com.jslee.operator.chapter0504;
+package com.jslee.operator.op04_TRANSFORMATION;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
+import com.jslee.utils.Logger;;
 import io.reactivex.Observable;
 import io.reactivex.Single;
 
@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 원본 데이터를 변환한 값과 각각의 key를 매핑하여 Map으로 통지하는 예제
  */
-public class ObservableToMapExample02 {
+public class ToMapEx02 {
     public static void main(String[] args) {
         Single<Map<String, String>> single = Observable.just("a-Alpha", "b-Bravo", "c-Charlie", "e-Echo")
                 .toMap(

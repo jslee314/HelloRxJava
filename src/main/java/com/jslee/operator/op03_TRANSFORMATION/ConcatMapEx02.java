@@ -1,8 +1,8 @@
-package com.jslee.operator.chapter0503;
+package com.jslee.operator.op03_TRANSFORMATION;
 
 import com.jslee.utils.LogType;
-import com.jslee.utils.Logger;
-import com.jslee.utils.TimeUtil;
+import com.jslee.utils.Logger;;
+import com.jslee.utils.TimeUtil;;
 import io.reactivex.Observable;
 
 import java.util.concurrent.TimeUnit;
@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * concatMap과 달리 순서를 보장해주지 않는 flatMap의 예제
  * 실행 속도가 concatMap 보다 빠르다.
  */
-public class ObservableConcatMapExample02 {
+public class ConcatMapEx02 {
     public static void main(String[] args) {
         TimeUtil.start();
         Observable.interval(100L, TimeUnit.MILLISECONDS)
