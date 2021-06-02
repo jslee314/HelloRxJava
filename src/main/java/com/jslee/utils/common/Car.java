@@ -1,4 +1,4 @@
-package com.jslee.common;
+package com.jslee.utils.common;
 
 public class Car {
     private CarMaker carMaker;

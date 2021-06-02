@@ -1,4 +1,4 @@
-package com.jslee.common;
+package com.jslee.utils.common;
 
 import io.reactivex.Observable;
 
