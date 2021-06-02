@@ -9,8 +9,9 @@ import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-public class HelloRxJavaObservableCreateExample {
+public class MyObservable {
     public static void main(String[] args) throws InterruptedException {
+
         Observable<String> observable =
                 Observable.create(new ObservableOnSubscribe<String>() {
                     @Override
@@ -48,6 +49,7 @@ public class HelloRxJavaObservableCreateExample {
                 Logger.log(LogType.ON_COMPLETE);
             }
         });
+
 
         Thread.sleep(500L);
     }

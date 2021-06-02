@@ -5,15 +5,16 @@ import com.jslee.utils.Logger;
 import io.reactivex.Observable;
 import io.reactivex.schedulers.Schedulers;
 
-public class HelloRxJavaObservableCreateLamdaExample {
+public class MyObservableLambda {
+
     public static void main(String[] args) throws InterruptedException {
-        Observable<String> observable =
-                Observable.create(emitter -> {
+
+
+        Observable<String> observable = Observable.create(emitter -> {
                     String[] datas = {"Hello", "RxJava!"};
                     for(String data : datas){
                         if(emitter.isDisposed())
                             return;
-
                         emitter.onNext(data);
                     }
                     emitter.onComplete();
@@ -27,6 +28,10 @@ public class HelloRxJavaObservableCreateLamdaExample {
                 disposable -> {/**아무것도 하지 않는다.*/}
         );
 
+
          Thread.sleep(500L);
+
+
+
     }
 }

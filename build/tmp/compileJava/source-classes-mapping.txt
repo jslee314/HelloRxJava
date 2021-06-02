@@ -269,8 +269,10 @@ com/jslee/publisher/Floawable/BackpressureMissing.java
  com.jslee.publisher.Floawable.BackpressureMissing
 com/jslee/publisher/ColdHot/ColdPublisherExample.java
  com.jslee.publisher.ColdHot.ColdPublisherExample
-com/jslee/publisher/Observable/MyObservableLambda.java
- com.jslee.publisher.Observable.MyObservableLambda
+com/jslee/publisher/Observable/MyObservable.java
+ com.jslee.publisher.Observable.MyObservable
+ com.jslee.publisher.Observable.MyObservable$1
+ com.jslee.publisher.Observable.MyObservable$2
 com/jslee/publisher/Floawable/BackpressureBuffer01.java
  com.jslee.publisher.Floawable.BackpressureBuffer01
 com/jslee/operator/op01_CREATION/CreateLambda.java
@@ -279,7 +281,5 @@ com/jslee/publisher/Floawable/BackpressureLatest.java
  com.jslee.publisher.Floawable.BackpressureLatest
 com/jslee/publisher/Floawable/BackpressureDrop.java
  com.jslee.publisher.Floawable.BackpressureDrop
-com/jslee/publisher/Observable/MyObservable.java
- com.jslee.publisher.Observable.MyObservable
- com.jslee.publisher.Observable.MyObservable$1
- com.jslee.publisher.Observable.MyObservable$2
+com/jslee/publisher/Observable/MyObservableLambda.java
+ com.jslee.publisher.Observable.MyObservableLambda
