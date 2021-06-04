@@ -6,7 +6,7 @@ import io.reactivex.BackpressureStrategy;
 import io.reactivex.Flowable;
 import io.reactivex.schedulers.Schedulers;
 
-public class HelloRxJavaFlowableCreateLamdaExample {
+public class MyFlowableLambda {
     public static void main(String[] args) throws InterruptedException {
         Flowable<String> flowable =
                 Flowable.create(emitter -> {
@@ -27,8 +27,8 @@ public class HelloRxJavaFlowableCreateLamdaExample {
         flowable.observeOn(Schedulers.computation())
                 .subscribe(data -> Logger.log(LogType.ON_NEXT, data),
                         error -> Logger.log(LogType.ON_ERROR, error),
-                    () -> Logger.log(LogType.ON_COMPLETE),
-                    subscription -> subscription.request(Long.MAX_VALUE));
+                        () -> Logger.log(LogType.ON_COMPLETE),
+                        subscription -> subscription.request(Long.MAX_VALUE));
 
         Thread.sleep(500L);
     }
