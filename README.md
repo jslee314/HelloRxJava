@@ -19,13 +19,18 @@
 
 
  
-리엑티브 연산자 1 - 생성, 필터링, 변환, 결합  
+리엑티브 연산자 1 - 생성, 필터링, 변환, 결합
+  - 생성: 
+  - 필터링: 
+  - 변환: 
+  - 결합:   
 
 
-리엑티브 연상자 2 - 에러, 유틸, 조건, 통지  
-
-
-
+리엑티브 연상자 2 - 에러, 유틸, 조건, 통지
+  - 에러: onErrorReturn(),  onErrorResumeNext(),  retry() 
+  - 유틸: delay(),  delaySubscription(),  timeOut(),  timeInterval(),  materialize() / dematerialize()
+  - 조건: all(), amb(), contains(), defaultIfEmpty(), sequenceEqual() 
+  - 통지: count(), reduce() 
 
 
 
