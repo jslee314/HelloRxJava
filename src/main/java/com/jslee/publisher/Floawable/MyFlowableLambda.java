@@ -24,11 +24,11 @@ public class MyFlowableLambda {
                     emitter.onComplete();
                 }, BackpressureStrategy.BUFFER);
 
-        flowable.observeOn(Schedulers.computation())
-                .subscribe(data -> Logger.log(LogType.ON_NEXT, data),
-                        error -> Logger.log(LogType.ON_ERROR, error),
-                        () -> Logger.log(LogType.ON_COMPLETE),
-                        subscription -> subscription.request(Long.MAX_VALUE));
+flowable.observeOn(Schedulers.computation())
+        .subscribe(data -> Logger.log(LogType.ON_NEXT, data),
+                error -> Logger.log(LogType.ON_ERROR, error),
+                () -> Logger.log(LogType.ON_COMPLETE),
+                subscription -> subscription.request(Long.MAX_VALUE));
 
         Thread.sleep(500L);
     }
