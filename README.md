@@ -9,7 +9,7 @@
 리엑티브 스트림즈  
 
 
-리엑티브 생산자 1 - [Cold Publisher vs Hot Publisher](https://jade314.tistory.com/entry/%EB%A6%AC%EC%97%91%ED%8B%B0%EB%B8%8C-%EC%83%9D%EC%82%B0%EC%9E%90Publisher-Cold-Publisher-Hot-Publisher)
+리엑티브 생산자 1 - [Cold Publisher vs Hot Publisher (클릭)](https://jade314.tistory.com/entry/%EB%A6%AC%EC%97%91%ED%8B%B0%EB%B8%8C-%EC%83%9D%EC%82%B0%EC%9E%90Publisher-Cold-Publisher-Hot-Publisher)
 
 리엑티브 생산자 2 - Flowable & Observable (feat. 배압전략)
 
