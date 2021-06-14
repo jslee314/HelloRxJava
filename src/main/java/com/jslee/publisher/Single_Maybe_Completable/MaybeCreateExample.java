@@ -1,4 +1,4 @@
-package com.jslee.publisher.SingbleMaybeCompletable;
+package com.jslee.publisher.Single_Maybe_Completable;
 
 import com.jslee.utils.LogType;
 import com.jslee.utils.Logger;
@@ -13,11 +13,12 @@ import io.reactivex.disposables.Disposable;
  */
 public class MaybeCreateExample {
     public static void main(String[] args){
+
+
         Maybe<String> maybe = Maybe.create(new MaybeOnSubscribe<String>() {
             @Override
             public void subscribe(MaybeEmitter<String> emitter) throws Exception {
-//                emitter.onSuccess(DateUtil.getNowDate());
-
+                // emitter.onSuccess(DateUtil.getNowDate());
                 emitter.onComplete();
             }
         });
@@ -27,7 +28,6 @@ public class MaybeCreateExample {
             public void onSubscribe(Disposable disposable) {
                 // 아무것도 하지 않음.
             }
-
             @Override
             public void onSuccess(String data) {
                 Logger.log(LogType.ON_SUCCESS, "# 현재 날짜시각: " + data);
@@ -43,5 +43,9 @@ public class MaybeCreateExample {
                 Logger.log(LogType.ON_COMPLETE);
             }
         });
+
+
+
+
     }
 }
