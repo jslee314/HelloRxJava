@@ -1,4 +1,4 @@
-package com.jslee.publisher.SingbleMaybeCompletable;
+package com.jslee.publisher.Single_Maybe_Completable;
 
 import com.jslee.utils.DateUtil;
 import com.jslee.utils.LogType;
@@ -14,6 +14,9 @@ import io.reactivex.disposables.Disposable;
  */
 public class SingleCreateExample {
     public static void main(String[] args){
+
+
+
         Single<String> single = Single.create(new SingleOnSubscribe<String>() {
             @Override
             public void subscribe(SingleEmitter<String> emitter) throws Exception {
@@ -37,5 +40,8 @@ public class SingleCreateExample {
                 Logger.log(LogType.ON_ERROR, error);
             }
         });
+
+
+
     }
 }

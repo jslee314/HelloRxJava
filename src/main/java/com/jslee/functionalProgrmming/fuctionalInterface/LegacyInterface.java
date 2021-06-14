@@ -1,8 +1,8 @@
 package com.jslee.functionalProgrmming.fuctionalInterface;
 
-import com.jslee.common.Car;
-import com.jslee.common.CarMaker;
-import com.jslee.common.CarType;
+import com.jslee.utils.common.Car;
+import com.jslee.utils.common.CarMaker;
+import com.jslee.utils.common.CarType;
 
 import java.util.Arrays;
 import java.util.Collections;

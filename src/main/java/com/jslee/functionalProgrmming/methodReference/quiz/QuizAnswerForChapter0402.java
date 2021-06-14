@@ -1,7 +1,7 @@
 package com.jslee.functionalProgrmming.methodReference.quiz;
 
-import com.jslee.common.Car;
-import com.jslee.common.CarType;
+import com.jslee.utils.common.Car;
+import com.jslee.utils.common.CarType;
 
 import java.util.Arrays;
 import java.util.List;

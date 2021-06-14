@@ -170,8 +170,8 @@ com/jslee/operator/op08_CONDITIONAL/All.java
  com.jslee.operator.op08_CONDITIONAL.All
 com/jslee/operator/op03_TRANSFORMATION/quiz/QuizAnswerForChapter050301.java
  com.jslee.operator.op03_TRANSFORMATION.quiz.QuizAnswerForChapter050301
-com/jslee/publisher/Floawable/MyFlowableLambda.java
- com.jslee.publisher.Floawable.MyFlowableLambda
+com/jslee/operator/op01_CREATION/Interval.java
+ com.jslee.operator.op01_CREATION.Interval
 com/jslee/operator/op03_TRANSFORMATION/ConcatMapEx01.java
  com.jslee.operator.op03_TRANSFORMATION.ConcatMapEx01
 com/jslee/operator/op05_COMBINATION/quiz/QuizAnswerForChapter050501.java
@@ -263,10 +263,10 @@ com/jslee/publisher/Single_Maybe_Completable/MaybeCreateExample.java
  com.jslee.publisher.Single_Maybe_Completable.MaybeCreateExample$2
 com/jslee/publisher/Single_Maybe_Completable/MaybeFromSingle.java
  com.jslee.publisher.Single_Maybe_Completable.MaybeFromSingle
-com/jslee/operator/op01_CREATION/Timer.java
- com.jslee.operator.op01_CREATION.Timer
-com/jslee/publisher/Single_Maybe_Completable/ObservableToSingleExample.java
- com.jslee.publisher.Single_Maybe_Completable.ObservableToSingleExample
+com/jslee/publisher/Single_Maybe_Completable/MaybeJustExample.java
+ com.jslee.publisher.Single_Maybe_Completable.MaybeJustExample
+com/jslee/publisher/Floawable/MyFlowableLambda.java
+ com.jslee.publisher.Floawable.MyFlowableLambda
 com/jslee/operator/op01_CREATION/FromIterable.java
  com.jslee.operator.op01_CREATION.FromIterable
 com/jslee/operator/op01_CREATION/Create.java
@@ -279,7 +279,7 @@ com/jslee/operator/op01_CREATION/CreateLambda.java
  com.jslee.operator.op01_CREATION.CreateLambda
 com/jslee/publisher/Single_Maybe_Completable/MaybeLamdaExample.java
  com.jslee.publisher.Single_Maybe_Completable.MaybeLamdaExample
-com/jslee/publisher/Single_Maybe_Completable/MaybeJustExample.java
- com.jslee.publisher.Single_Maybe_Completable.MaybeJustExample
-com/jslee/operator/op01_CREATION/Interval.java
- com.jslee.operator.op01_CREATION.Interval
+com/jslee/operator/op01_CREATION/Timer.java
+ com.jslee.operator.op01_CREATION.Timer
+com/jslee/publisher/Single_Maybe_Completable/ObservableToSingleExample.java
+ com.jslee.publisher.Single_Maybe_Completable.ObservableToSingleExample

@@ -1,6 +1,6 @@
 package com.jslee.functionalProgrmming.fuctionalInterface;
 
-import com.jslee.common.*;
+import com.jslee.utils.common.*;
 
 import java.util.Arrays;
 import java.util.List;

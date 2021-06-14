@@ -1,6 +1,6 @@
 package com.jslee.functionalProgrmming.methodReference;
 
-import com.jslee.common.Car;
+import com.jslee.utils.common.Car;
 
 import java.util.function.Function;
 
