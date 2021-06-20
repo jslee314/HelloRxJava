@@ -1,4 +1,4 @@
-# RxJava 란?
+# 리엑티브 프로그래밍
 - 챕터 별 블로그 정리 내용 링크로 연결  
   
 ### 리엑티브 프로그래밍이란  [(설명 보기)](https://jade314.tistory.com/entry/%EB%A6%AC%EC%97%91%ED%8B%B0%EB%B8%8C-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8DReactive-programming)  
