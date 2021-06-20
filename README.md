@@ -14,6 +14,7 @@
 - Publisher와 Subscriber간의 프로세스 흐름  
   
   
+# 리엑티브 생산자 
   
 ### 리엑티브 생산자 1 - Cold Publisher vs Hot Publisher [(설명 보기)](https://jade314.tistory.com/entry/%EB%A6%AC%EC%97%91%ED%8B%B0%EB%B8%8C-%EC%83%9D%EC%82%B0%EC%9E%90Publisher-Cold-Publisher-Hot-Publisher)  
 - Cold Publisher : 구독 할때마다 데이터 처음부터 새로 통지 
