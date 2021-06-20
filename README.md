@@ -1,7 +1,5 @@
-# RxJava 연습용
+# RxJava 란?
 - 챕터 별 블로그 정리 내용 링크로 연결  
-
-  
   
 ### 리엑티브 프로그래밍이란  [(설명 보기)](https://jade314.tistory.com/entry/%EB%A6%AC%EC%97%91%ED%8B%B0%EB%B8%8C-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8DReactive-programming)  
 - 데이터 흐름 - pull 방식 vs push 방식
@@ -12,7 +10,15 @@
 ### 리엑티브 스트림즈  [(설명 보기)](https://jade314.tistory.com/entry/%EB%A6%AC%EC%97%91%ED%8B%B0%EB%B8%8CReactive-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8-%EA%B5%AC%EC%84%B1-%EC%9A%94%EC%86%8C)  
 - Publisher, Subscriber, Subscription, Processor 4개 인터페이스
 - Publisher와 Subscriber간의 프로세스 흐름  
-  
+
+
+
+### 함수형 프로그래밍  - Lambda, Functional interface, Method reference  [(설명 보기)](https://jade314.tistory.com/entry/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8Dlambda-functional-interface-method-reference)  
+- 함수형 인터페이스
+- 익명 클래스
+- 람다 표현식
+- 메서드 레퍼런스
+
   
 # 리엑티브 생산자 
   
@@ -33,12 +39,10 @@
 - Completable
   
   
-### 함수형 프로그래밍  - Lambda, Functional interface, Method reference  [(설명 보기)](https://jade314.tistory.com/entry/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8Dlambda-functional-interface-method-reference)  
-- 함수형 인터페이스
-- 익명 클래스
-- 람다 표현식
-- 메서드 레퍼런스
+
   
+  
+# 리엑티브 연산자
    
 ### 리엑티브 연산자 1 - 생성, 필터링, 변환, 결합  [(설명 보기)](https://jade314.tistory.com/entry/%EB%A6%AC%EC%95%A1%ED%8B%B0%EB%B8%8C-%EC%97%B0%EC%82%B0%EC%82%ACReactive-Operator-%EC%86%8C%EA%B0%9C)  
   - 생성: 
