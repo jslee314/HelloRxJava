@@ -51,7 +51,7 @@
   - 결합:   
 
 
-### 리엑티브 연상자 2 - 에러, 유틸, 조건, 통지  [(설명 보기)](https://jade314.tistory.com/entry/%EB%A6%AC%EC%95%A1%ED%8B%B0%EB%B8%8C-%EC%97%B0%EC%82%B0%EC%9E%90-Operator-2-%EC%97%90%EB%9F%AC-%EC%9C%A0%ED%8B%B8-%EC%A1%B0%EA%B1%B4-%ED%86%B5%EC%A7%80)  
+### 리엑티브 연산자 2 - 에러, 유틸, 조건, 통지  [(설명 보기)](https://jade314.tistory.com/entry/%EB%A6%AC%EC%95%A1%ED%8B%B0%EB%B8%8C-%EC%97%B0%EC%82%B0%EC%9E%90-Operator-2-%EC%97%90%EB%9F%AC-%EC%9C%A0%ED%8B%B8-%EC%A1%B0%EA%B1%B4-%ED%86%B5%EC%A7%80)  
   - 에러: onErrorReturn(),  onErrorResumeNext(),  retry() 
   - 유틸: delay(),  delaySubscription(),  timeOut(),  timeInterval(),  materialize() / dematerialize()
   - 조건: all(), amb(), contains(), defaultIfEmpty(), sequenceEqual() 
