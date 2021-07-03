@@ -34,12 +34,10 @@
   
   
 ### [리엑티브 생산자 3] - Single & Maybe & Completable  [(설명 보기)](https://jade314.tistory.com/entry/%EB%A6%AC%EC%97%91%ED%8B%B0%EB%B8%8C-%EC%83%9D%EC%82%B0%EC%9E%90-Publisher-3-Single-Maybe-Completable)  
-- Single 
-- Maybe
-- Completable
-  
-  
-
+대량의 데이터가 아닌 초대 1건 이하만 데이터를 통지하는 생산자들
+- Single: 데이터를 1건만 통지하거나 "에러"를 통지
+- Maybe : 데이터를 1건만 통지하거나 1건도 통지하지 않고 "완료" 또는 "에러"를 통지
+- Completable : 데이터 생산자이지만 데이터를 1건도 통지하지 않고 "완료" 또는 "에러"를 통지  
   
   
 # 리엑티브 연산자
